@@ -1,0 +1,15 @@
+[project]
+name = "finagent-openenv"
+version = "0.1.0"
+description = "AI Personal Finance OpenEnv Environment"
+authors = [{ name = "Aditya Kumar" }]
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pydantic",
+    "openai"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
